@@ -1,0 +1,160 @@
+:root {
+    --bg-main: hsl(217, 54%, 11%);
+    --bg-card: hsl(216, 50%, 16%);
+    --colour-blue: hsl(215, 51%, 70%);
+    --colour-cyan: hsl(178, 100%, 50%);
+    --colour-white: hsl(0, 0%, 100%);
+    --line-colour: hsl(215, 32%, 27%);
+  }
+
+  body {
+    background-color: var(--bg-main);
+    font-family: "Outfit", sans-serif;
+    color: var(--colour-blue);
+    font-weight: 300;
+    line-height: 1.6;
+
+  }
+body p{
+    font-size: 18px !important;
+}
+
+
+
+ .container {
+ background-color: var(--bg-card);
+  max-width: 375px !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 16px;
+} 
+/*
+    .main-card {
+        background-color: var(--bg-card);
+        width: min(87.5%, 22rem);
+        margin: 9.5rem auto;
+        border-radius: 15px;
+        padding: 1.5rem 1.6rem 2rem;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+      }
+*/
+
+
+    .content-name {
+        color:var(--colour-white);
+        font-family: 'Outfit';
+        font-size: 25px;
+        max-width: 20ch;
+        margin-left: 10px;
+    }
+    div .description{
+        display: flex !important;
+        max-width: 35ch;
+
+       color: hsl(215, 51%, 70%);
+       margin-left: 10px;
+
+    }
+    .crypto{
+        display: flex !important;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .crypto-day , .crypto-name{
+       color: hsl(178, 100%, 50%);
+       margin-left: 10px !important;
+    }
+    .crypto-day{
+        color: hsl(215, 51%, 70%);
+    }
+  .profile{
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+
+  }
+
+
+
+/* Creator Info */
+
+  .attribution a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    flex-wrap: wrap;
+
+  }
+  .crypto-creation span{
+    color:var(--colour-white);
+  }
+
+  .crypto div{
+    display:flex ;
+  }
+  .crypto-day{
+    margin-left: 20px;
+  }
+.clock{
+  margin-top: 20px;
+    width: 15px !important;
+    height: 30px !important;
+}
+
+.creation{
+    display: flex;
+   align-items: center !important;
+}
+.creation img{
+width: 50px;
+border: 2px solid white;
+border-radius: 50px;
+margin-right: 20px;
+margin-left: 10px;
+border-radius: 25px;
+
+}
+hr {
+    color:var(--line-colour) ;
+
+    width: 90% !important;
+    height: 10%;
+}
+.ethereum{
+  padding-left: 10px !important;
+  
+  margin-top: 15px;
+    width: 15px !important;
+    height: 30px !important;
+}
+
+
+@media only screen and (min-width:376px) {
+  .container {
+    background-color: var(--bg-card);
+     max-width: 375px !important;
+     margin: 50% auto;
+     padding: 17px;
+     border-radius: 25px;
+   }
+
+   .profile{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+}
+   
+
+}
+
+
+
+
+
